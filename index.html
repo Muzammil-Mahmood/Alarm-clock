@@ -31,7 +31,7 @@
     <!-- change icon and css file depending on project -->
     <link rel="fevicon icon" href="./assets/media/favicon.png?v=2" type="image/x-icon">
     <link rel="stylesheet" href="./assets/style/index.css" media="all">
-    <link rel="stylesheet" href="./assets/script/index.js" media="all">
+    <script src="assets/script/index.js" defer></script>
 
 </head>
 
@@ -47,15 +47,15 @@
   
       <div class="clock">
         <div>
-          <span class="digit">00</span>
+          <span id="hour">00</span>
           <span class="text">Hours</span>
         </div>
         <div>
-          <span class="digit">00</span>
+          <span id="minutes">00</span>
           <span class="text">Minutes</span>
         </div>
         <div>
-          <span class="digit">00</span>
+          <span id="seconds">00</span>
           <span class="text">Seconds</span>
         </div>
         <div>
